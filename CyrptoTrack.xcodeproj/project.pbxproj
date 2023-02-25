@@ -62,18 +62,26 @@
 		821B853B29A7D56600976ECE /* CyrptoTrack */ = {
 			isa = PBXGroup;
 			children = (
-				821B853C29A7D56600976ECE /* AppDelegate.swift */,
-				821B853E29A7D56600976ECE /* SceneDelegate.swift */,
+				828E715429A9827400F46DC9 /* App */,
 				821B854029A7D56600976ECE /* ViewController.swift */,
-				821B854229A7D56600976ECE /* Main.storyboard */,
-				821B854529A7D56700976ECE /* Assets.xcassets */,
-				821B854729A7D56700976ECE /* LaunchScreen.storyboard */,
-				821B854A29A7D56700976ECE /* Info.plist */,
 				821B855029A7D5C600976ECE /* APICaller.swift */,
 				821B855229A7DA8C00976ECE /* CryptoTableViewCell.swift */,
 				821B855429A7DD6D00976ECE /* Models.swift */,
 			);
 			path = CyrptoTrack;
+			sourceTree = "<group>";
+		};
+		828E715429A9827400F46DC9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				821B853C29A7D56600976ECE /* AppDelegate.swift */,
+				821B853E29A7D56600976ECE /* SceneDelegate.swift */,
+				821B854229A7D56600976ECE /* Main.storyboard */,
+				821B854529A7D56700976ECE /* Assets.xcassets */,
+				821B854729A7D56700976ECE /* LaunchScreen.storyboard */,
+				821B854A29A7D56700976ECE /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,7 +309,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96CFCGZ8M8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CyrptoTrack/Info.plist;
+				INFOPLIST_FILE = CyrptoTrack/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -329,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96CFCGZ8M8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CyrptoTrack/Info.plist;
+				INFOPLIST_FILE = CyrptoTrack/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
